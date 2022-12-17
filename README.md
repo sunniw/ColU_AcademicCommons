@@ -5,7 +5,7 @@ A list of duplicate resources are identified from Academic Commons (AC) — the 
 
 ## all_dupe_and_related.ipynb
 
-From the duplicate list of parent items, this script searches for their children (assets) from the repository. The resulting list will be exported as 2 CSV files. On Hyacinth—the backend digital object management platform—the exported list will be used to merge stats of duplicates before removal. On DataCite, the duplicates will be redirected to appropriate resources.
+From the duplicate list of parent items, this script searches for their children (assets) from the repository. The resulting list will be exported as 2 CSV files. On Hyacinth — the backend digital object management platform — the exported list will be used to merge stats of duplicates before removal. On DataCite, the duplicates will be redirected to appropriate resources.
 
 **Outputs:**
 - 1 CSV file for Hyacinth
