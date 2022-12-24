@@ -1,9 +1,9 @@
 # Columbia University Academic Commons Weeding Project
-Last updated: 2022-12-23 version 2.
-
 A project of weeding legacy duplicate materials from Academic Commons, Fall 2022.
 
 A list of duplicate resources are identified from Academic Commons (AC) — the digital scholarship repository of Columbia University. Duplicates are flagged and pointed to the ones that would be remained in the repository for further actions.
+
+Last updated: 2022-12-23 version 2.
 
 ## all_dupe_and_related.ipynb
 
