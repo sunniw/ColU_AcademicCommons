@@ -3,8 +3,8 @@ A project of weeding legacy duplicate materials from Academic Commons, Fall 2022
 
 A list of duplicate resources are identified from Academic Commons (AC) — the digital scholarship repository of Columbia University. Duplicates are flagged and pointed to the ones that would be remained in the repository for further actions.
 
-First created: 2022-11-10
-Last updated: 2022-12-23 version 2
+First created: 2022-11-10.
+Last updated: 2022-12-23 version 2.
 
 ## all_dupe_and_related.ipynb
 
@@ -32,3 +32,4 @@ Adding a new part in [21] to do a child-level mapping from the duplicate asset t
 2. Continue to work on the duplicate child assets found before this step, while skipping those that had not been published on Academic Commons, and the duplicate items’ metadata XML, which were unintentionally published.
 3. Mapping the two sets of assets.
 4. Output as a CSV file for Hyacinth.
+
