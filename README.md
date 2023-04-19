@@ -17,6 +17,10 @@ Duplicate items on AC carry usage stats, which we wanted to keep and merge with 
 
 From the duplicate list of parent items, this script searches their children (assets) from the repository. The resulting list will be exported as 2 CSV files. On Hyacinth — the backend digital object management platform — the exported list will be used to merge stats of duplicates before unpublished. On DataCite, the duplicates will be redirected to appropriate resources.
 
+**Inputs:**
+- 1 CSV file with the full AC corpus from Hyacinth (published and unpublished, assets and items)
+- 1 CSV file with defined duplicates, with the following column titles: 'delete--DOI', 'delete--PID', 'OR Digital Object Type > String Key', 'OR Title 1 > Sort Portion', 'keep--PID', 'keep--DOI' (note: you can amend the code, if you do not have all of these column titles)
+
 **Outputs:**
 - 1 CSV file for Hyacinth
 - 1 CSV file for DataCite
@@ -30,6 +34,10 @@ From the duplicate list of parent items, this script searches their children (as
 ## all_dupe_and_related_v2.ipynb
 
 Adding a new part in [21] to do a child-level mapping from the duplicate asset to its equivalent keeping asset. This mapping facilitates Hyacinth to merge usage stats before unpublishing the duplicates. The mapping will skip any originally unpublished duplicates and metadata XML.
+
+**Inputs:**
+- 1 CSV file with the full AC corpus from Hyacinth (published and unpublished, assets and items)
+- 1 CSV file with defined duplicates, with the following column titles: 'delete--DOI', 'delete--PID', 'OR Digital Object Type > String Key', 'OR Title 1 > Sort Portion', 'keep--PID', 'keep--DOI' (note: you can amend the code, if you do not have all of these column titles)
 
 **Outputs:**
 - 1 additional CSV file for Hyacinth
