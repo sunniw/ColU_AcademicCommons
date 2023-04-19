@@ -1,12 +1,13 @@
 # Columbia University Academic Commons Weeding Project
 - First created: 2022-11-10.
-- Last updated: 2022-12-23 version 2.
+- Version 2 completed: 2022-12-23.
+- Last edit: 2023-04-18 (README.md)
 
-A project of weeding legacy duplicate materials from Academic Commons, Fall 2022.
+This is a project of weeding legacy duplicate materials from Columbia University Libraries' Academic Commons done in Fall 2022.
 
 A list of duplicate resources are identified on Academic Commons (AC) — the digital scholarship repository of Columbia University. Duplicates are flagged and pointed to the ones that would be remained in the repository before removing from users' view. Stats of the duplicates will be merged on child access level. DOIs of those removed resources will be redirected on to the available ones.
 
-This project was presented as a poster at Code4Lib 2023, which is available in [OSF](https://osf.io/ufk7c/ "OSF").
+This project was presented as a poster at Code4Lib on 16 March 2023, at Princeton University, which is available in [OSF](https://osf.io/ufk7c/ "OSF"). It will also be presented as a short session at the Southern Miss Institutional Repository Conference (SMIRC), 28 April 2023, at the University of Southern Mississippi.
 
 ## Dupe merge stat flowchart.pdf
 
